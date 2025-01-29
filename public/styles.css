@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "MyCustomFont";
+    src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf")
+        format("truetype");
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "MyCustomFont", Arial, sans-serif;
+    background-color: hsl(36, 100%, 99%);
+}
+nav,
+header {
+    padding: 50px;
+}
+
+.navbar-nav li {
+    color: hsl(236, 13%, 42%);
+}
+.new-sec {
+    background-color: hsl(240, 100%, 5%);
+    padding: 20px;
+}
+.new-sec div {
+    background-color: hsl(240, 100%, 5%);
+    margin-top: 20px;
+}
+.new-sec h1 {
+    color: hsl(35, 77%, 62%);
+    font-size: 30px;
+}
+.new-sec h4 {
+    color: hsl(36, 100%, 99%);
+}
+.new-sec p {
+    color: hsl(236, 13%, 42%);
+}
+hr {
+    color: hsl(236, 13%, 42%);
+    margin-top: 20px;
+}
+.second-grid {
+    margin-top: 16px;
+}
+.second-grid h1 {
+    color: hsl(240, 100%, 5%);
+    font-size: 30px;
+    font-weight: bolder;
+}
+.second-grid p {
+    color: hsl(236, 13%, 42%);
+}
+button {
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(240, 100%, 5%);
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 8px;
+    width: 200px;
+    margin-top: 16px;
+}
+section {
+    margin-top: 70px;
+}
+section h1 {
+    color: hsl(5, 85%, 63%);
+    font-size: 20px;
+    font-weight: bold;
+}
+section h4 {
+    color: hsl(5, 85%, 63%);
+    color: hsl(240, 100%, 5%);
+    font-weight: bold;
+}
+section p {
+    color: hsl(236, 13%, 42%);
+    margin-top: 10px;
+}
+.w-100 {
+    height: 300px;
+    object-fit: cover;
+}
+#mobileMenu {
+    background-color: hsl(36, 100%, 99%);
+}
+.hidden {
+    display: none;
+}
+.visible {
+    display: flex;
+}
+@media screen and (max-width: 600px) {
+    nav,
+    header {
+        padding: 20px;
+    }
+}
